@@ -34,7 +34,7 @@ body {
 header {
   background-color: rgb(87, 87, 87);
   height: 120px;
-  width: fit-content;
+  width: 100%;
   font-size: 30px;
   color: silver;
   text-decoration: underline;
@@ -42,7 +42,7 @@ header {
 }
 
 nav {
-  background-color: slategray;
+  background-color: rgb(131, 131, 131);
   height: 50px;
   width: fit-content;
   display: flex;
@@ -51,7 +51,7 @@ nav {
 }
 
 main {
-  background-color: palevioletred;
+  background-color: rgb(131, 131, 131);
   height: 600px;
   width: fit-content;
 }
