@@ -1,3 +1,7 @@
+html {
+  height: 100%;
+}
+
 .container {
   margin-left: auto;
   margin-right: auto;
@@ -29,21 +33,37 @@
 }
 
 .description {
+  background-color: rgba(169, 169, 169, 0.342);
   font-size: 30px;
-  color: rgb(236, 236, 236);
+  color: rgb(114, 2, 2);
+  width: fit-content;
+}
+
+a {
+  font-family: monospace;
+  font-size: 35px;
+  color: rgb(228, 228, 228);
+  text-decoration: none;
 }
 
 h1 {
+  width: fit-content;
   font-size: 84px;
   color: darkgray;
   font-family: monospace;
+  background-color: rgba(169, 169, 169, 0.418);
 }
 
 body {
   background-color: rgb(126, 126, 126);
+  background-image: url(images/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 header {
+  background-color: darkgrey;
   height: 220px;
   width: 100%;
   font-size: 30px;
@@ -66,8 +86,8 @@ main {
   width: fit-content;
   text-align: center;
   margin-top: 20px;
-  padding-right: 200px;
-  padding-left: 200px;
+  padding-right: 50px;
+  padding-left: 50px;
 }
 
 footer {
