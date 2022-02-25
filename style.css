@@ -6,6 +6,7 @@
 
 .box {
   background-color: lightgray;
+  margin-top: 10px;
   height: 30px;
   width: 30px;
 }
@@ -27,13 +28,23 @@
   height: auto;
 }
 
+.description {
+  font-size: 30px;
+  color: rgb(236, 236, 236);
+}
+
+h1 {
+  font-size: 84px;
+  color: darkgray;
+  font-family: monospace;
+}
+
 body {
   background-color: rgb(126, 126, 126);
 }
 
 header {
-  background-color: rgb(87, 87, 87);
-  height: 120px;
+  height: 220px;
   width: 100%;
   font-size: 30px;
   color: silver;
@@ -42,7 +53,7 @@ header {
 }
 
 nav {
-  background-color: rgb(131, 131, 131);
+  background-color: rgb(42, 42, 42);
   height: 50px;
   width: fit-content;
   display: flex;
@@ -51,13 +62,16 @@ nav {
 }
 
 main {
-  background-color: rgb(131, 131, 131);
   height: 600px;
   width: fit-content;
+  text-align: center;
+  margin-top: 20px;
+  padding-right: 200px;
+  padding-left: 200px;
 }
 
 footer {
-  background-color: darkslategray;
+  background-color: rgb(131, 131, 131);
   height: 120px;
   width: fit-content;
 }
