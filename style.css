@@ -9,16 +9,29 @@ html {
 }
 
 .box {
-  background-color: lightgray;
+  background-color: rgb(190, 190, 190);
   margin-top: 10px;
   height: 30px;
-  width: 30px;
+  width: fit-content;
+  padding-bottom: 6px;
 }
 
 .headerLogo {
   max-width: 100%;
   max-height: 100%;
   text-align: center;
+}
+
+.links {
+  background-color: rgba(128, 128, 128, 0.287);
+  text-align: center;
+}
+
+.edited-links {
+  text-decoration: none;
+  margin-left: 30px;
+  margin-right: 30px;
+  color: darkgrey;
 }
 
 .backgroundImage {
@@ -39,10 +52,16 @@ html {
   width: fit-content;
 }
 
+.footerInfo {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
 a {
   font-family: monospace;
   font-size: 35px;
-  color: rgb(228, 228, 228);
+  color: rgb(51, 50, 50);
   text-decoration: none;
 }
 
@@ -91,7 +110,6 @@ main {
 }
 
 footer {
-  background-color: rgb(131, 131, 131);
   height: 120px;
   width: fit-content;
 }
